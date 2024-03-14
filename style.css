@@ -154,7 +154,7 @@ body {
 }
 
 .third-section div h1 {
-  width: 50%;
+  width: 55%;
   
 }
 
@@ -180,14 +180,15 @@ body {
 }
 
 .third-section div {
-  width: 45%;
-  margin: 0px;
+  width: fit-content;
+  margin: 50px;
   padding:0px;
+  position: relative;
   
 }
 
 .third-section {
-  display: flex;
+  flex-direction: row;
   width: 100%;
   background-color: blueviolet;
 
@@ -195,23 +196,24 @@ body {
 
 #revolutionize-background {
   position: relative;
-  top: 0;
-  left: 0;
+  align-items: center;
+  right: -350px;
+
 }
 
 #communication-img1 {
   position: absolute;
-  left: 1.9;
+  left: px;
 
 }
 
 #revolutionize-img2 {
   position: absolute;
-  top: 1px;
   top
 }
 
 .all-third-imgs {
-    width: 50%;
-  border-style: dashed;
+  width: 40%;
+  position: relative;
+
 }
